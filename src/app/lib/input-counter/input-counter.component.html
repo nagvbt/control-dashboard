@@ -1,0 +1,33 @@
+<!-- <div class="wrapper">
+  <button class="left" [class]="btnClass" (click)="increase()">+</button>
+  <input type="text" [class]="inputClass" [value]="counterValue" (input)="counterChanged($event)">
+  <button class="right" [class]="btnClass" (click)="decrease()">-</button>
+</div> -->
+
+
+  <div class="c">
+    
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default btn-number"  (click)="decrease()">
+          <span class="glyphicon glyphicon-arrow-down"></span>
+        </button>
+      </span>
+      <input type="text" class="form-control input-number" [value]="counterValue" (input)="counterChanged($event)">
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default btn-number" (click)="increase()">
+          <span class="glyphicon glyphicon-arrow-up"></span>
+        </button>
+      </span>
+    </div>
+    
+    
+  </div>
+
+<!-- 
+USAGE-1
+<input-counter btnClass="customClass" inputClass="customClass" (onCounterChange)="customEvent()" [(ngModel)]="slewValue"></input-counter>
+
+<input-counter btnClass="customClass" inputClass="customClass" [(ngModel)]="slewValue">
+</input-counter>
+ -->

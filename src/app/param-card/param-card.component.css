@@ -1,0 +1,72 @@
+.title {
+  margin-top: 1rem;
+}
+
+.h-title {
+  font-weight: bold;
+  background-color: #6b1e65;
+  font-size: 2rem;
+  color: #e6e3e9;
+}
+
+.h-value {
+  font-weight: bold;
+  background-color: rgba(255, 255, 127, 0.727);
+  padding-top: 0.4rem;
+}
+
+.container1 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.row {
+  border: 0px solid;
+  align-items: center;
+}
+
+.col-md-4 {
+  border: 1px solid;
+  height: 3rem;
+}
+.content {
+  min-height: 6rem;
+  text-align: center;
+}
+
+.footer {
+  min-height: 4.5rem;
+  text-align: center;
+}
+
+.title-bg {
+  background-color: #4472c4;
+}
+
+.footer-title {
+  padding-top: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.f-div {
+  border-top: 1px solid;
+  font-weight: bold;
+}
+.pccw {
+  background-color: rgb(255, 140, 0);
+  font-weight: bold;
+  color: white;
+}
+.ccw {
+  background-color: rgb(163, 226, 163);
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  text-align: center;
+}
+.right {
+  text-align: left;
+}

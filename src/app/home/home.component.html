@@ -1,0 +1,56 @@
+<div id="hh" class="container1">
+  <!--Top Row -->
+  <div class="row mid-sec">
+    <div class="col-md-4 card-left">
+      <div>
+        <app-param-table></app-param-table>
+        <app-ctrl-table></app-ctrl-table>
+      </div>
+    </div>
+
+    <!-- 2.2 -->
+    <div class="col-md-4 card">
+      <div class="row rowmid">
+        <div class="block">
+          <app-master-mode></app-master-mode>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2.3 -->
+    <div class="col-md-4 card-right">
+      <div class="row margin-0">
+        <div class="chart-sec">
+          <app-graph-widget></app-graph-widget>
+        </div>
+      </div>
+
+      <div class="row rowmid">
+        <div class="col-md-9 card-left">
+          <div class="az">
+            <app-var-table></app-var-table>
+          </div>
+        </div>
+        <div class="col-md-3 card-right">
+          <div class="stop">
+            <app-emergency-stop></app-emergency-stop>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Row -->
+  <div class="row top-sec">
+    <div class="col-md-6 card-left">
+      <div (window:resize)="onResize()" class="widget">
+        <app-param-card [status]="status"></app-param-card>
+      </div>
+    </div>
+    <div class="col-md-6 card">
+      <div class="widget">
+        <app-param-card [status]="status"></app-param-card>
+      </div>
+    </div>
+  </div>
+</div>

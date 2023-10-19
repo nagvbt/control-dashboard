@@ -1,0 +1,35 @@
+<div class="mode-container" *ngIf="isMaster">
+  <div class="row btn-container">
+    <div class="col-md-4">
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        color="primary"
+        (click)="onModeBtn('STATE')"
+      >
+        State
+      </button>
+    </div>
+  </div>
+
+  <div class="row btn-container">
+    <div class="col-md-4">
+      <button
+        type="button"
+        class="btn btn-primary btn-block"
+        color="primary"
+        (click)="onModeBtn('TODO')"
+      >
+        TO DO
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div *ngIf="!isMaster">
+  <div [ngSwitch]="mode">
+    <app-state *ngSwitchCase="'STATE'"></app-state>
+    <app-todo *ngSwitchCase="'TODO'"></app-todo>
+  </div>
+</div>

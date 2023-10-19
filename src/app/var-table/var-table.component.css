@@ -1,0 +1,41 @@
+table.view {
+  border: 6px;
+
+  height: 10px;
+  width: 320px;
+}
+td {
+  border: 1px solid black;
+}
+td.azhrk {
+  background-color: red;
+  text-align: center;
+}
+td.stow {
+  text-align: center;
+  font-size: 16px;
+  vertical-align: center;
+  background-color: rgba(0, 128, 0, 0.411);
+}
+td.az {
+  background-color: rgba(255, 255, 0, 0.562);
+}
+td.azval {
+  background-color: rgba(255, 255, 0, 0.562);
+}
+td.el {
+  background-color: rgba(255, 255, 0, 0.562);
+}
+td.elval {
+  background-color: rgba(255, 255, 0, 0.562);
+}
+td.elhrk {
+  height: 30px;
+  background-color: rgba(0, 128, 0, 0.5);
+}
+td.st1 {
+  background-color: rgba(0, 128, 0, 0.5);
+}
+td.st2 {
+  background-color: rgba(0, 128, 0, 0.5);
+}

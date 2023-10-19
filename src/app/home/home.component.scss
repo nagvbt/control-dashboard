@@ -1,0 +1,155 @@
+html,body {
+    background: blue;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+// Header Height - 6.5 rem
+// Top row - Height - 13.5 rem
+// Botom row - Height - 13.5 rem
+
+/* H - top-sec - 13.5rem */
+ .top-sec {
+    margin: 0.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    height: 13.5rem;
+  }
+
+  .mid-sec {
+    margin: 0 .5rem;
+    // background: purple;
+    // height: -moz-calc(100% - (6.5rem + 13.5rem + 18rem));
+    // height: -webkit-calc(100% - (6.5rem + 13.5rem + 18rem));
+    // height: calc(100% - (6.5rem + 13.5rem + 18rem));
+    display:block;
+  }
+
+  .bottom-sec {
+    height: 24rem;
+    background: #d9d9d9;
+  }
+
+  .margin-0{
+    margin: 0rem;
+  }
+
+.row-example {
+  border: 1px solid #000;
+  height: 200px;
+
+  div {
+    background: #f5f5f5;
+    border: 1px solid #000;
+  }
+}
+
+.column-example {
+  border: 1px solid #000;
+  padding: 16px;
+
+  div {
+    background: #f5f5f5;
+    border: 1px solid #000;
+  }
+}
+
+.card {
+  padding-left: 0rem;
+  padding-right: 0.5rem;
+ }
+
+ .card-left {
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+  }
+
+ .card-right {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+ .mid-sec {
+    margin: 0 .5rem;
+  }
+
+ .widget {
+    min-height: 6rem;;
+    background: #AFABAA;
+    border-radius: .5rem;
+ }
+
+.block {
+    min-height: 37rem;
+    background-color: #afabab;
+    border: 1px solid #e3e3e3;
+  }
+
+.mode-indicator {
+  min-height: 5rem;
+  background: #FFD966;
+}
+
+.band-table {
+  min-height: 17rem;
+  // background: #E07769;
+}
+
+.param-table {
+  min-height: 25.5rem;
+}
+
+.rowtop {
+  margin: 0rem;
+  margin-bottom: .5rem;
+}
+
+.rowmid {
+  margin: 0rem;
+  margin-bottom: .5rem;
+}
+
+.az {
+  // width:45rem;
+  height:12rem;
+  // background: #8DB7CF;
+}
+
+.stop {
+  height:11rem;
+  background: white;
+}
+
+.az-sec {
+  min-height: 11rem;
+}
+
+.chart-sec {
+  min-height: 16rem;
+  // background: #0DF848;
+}
+
+.log-sec {
+  background: white;
+ // height: 18rem;
+
+  height: -moz-calc(100% - (6.5rem + 13.5rem + 18rem));
+  height: -webkit-calc(100% - (6.5rem + 13.5rem + 18rem));
+  height: calc(100% - (6.5rem + 13.5rem + 18rem));
+
+  border: 1px solid #000;
+}
+
+.c-table {
+  min-height: 19rem;
+  //background: #1BAC33;
+}
+
+#hh{
+  width: 100%;
+  margin:0 auto 1.4em;
+    text-align: center;
+	background:#fff;
+	position:relative;
+}

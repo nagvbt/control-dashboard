@@ -1,0 +1,93 @@
+<div class="row">
+  <div class="header">
+    <h3>STATES</h3>
+  </div>
+</div>
+<div class="container-fluid">
+  <div>
+    <table class="table">
+      <tr>
+        <td>State 1</td>
+        <td>
+          <input-counter
+            btnClass="customClass"
+            inputClass="customClass"
+            value="a"
+            [(ngModel)]="a"
+          ></input-counter>
+        </td>
+        <td>
+          <mat-checkbox (click)="fun('az')"></mat-checkbox>
+        </td>
+      </tr>
+
+      <tr>
+        <td>State 2</td>
+        <td>
+          <input-counter
+            btnClass="customClass"
+            inputClass="customClass"
+            value="b"
+            [(ngModel)]="b"
+          ></input-counter>
+        </td>
+        <td>
+          <mat-checkbox (click)="fun('el')"></mat-checkbox>
+        </td>
+      </tr>
+
+      <tr>
+        <td>State 3</td>
+        <td>
+          <input-counter
+            btnClass="customClass"
+            inputClass="customClass"
+            value="c"
+            [(ngModel)]="c"
+          ></input-counter>
+        </td>
+        <td>
+          <mat-checkbox (click)="fun('fe')"></mat-checkbox>
+        </td>
+      </tr>
+
+      <tr>
+        <td>State 4</td>
+        <td>
+          <input-counter
+            btnClass="customClass"
+            inputClass="customClass"
+            value="p"
+            [(ngModel)]="p"
+          ></input-counter>
+        </td>
+        <td>
+          <mat-checkbox (click)="fun('po')"></mat-checkbox>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="row footer">
+  <div class="col-md-4">
+    <button type="button" class="btn btn-default btn-block" (click)="exit()">
+      EXIT
+    </button>
+  </div>
+  <div class="col-md-4">
+    <button
+      type="button"
+      class="btn btn-primary btn-block"
+      (click)="run()"
+      [disabled]="!(az || el || fe || po)"
+    >
+      RUN
+    </button>
+  </div>
+  <div class="col-md-4">
+    <button type="button" class="btn btn-primary btn-block" (click)="stop()">
+      STOP
+    </button>
+  </div>
+</div>

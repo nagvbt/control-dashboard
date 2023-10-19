@@ -1,0 +1,9 @@
+/* div.wrapper {display:inline-block}
+    input {max-width:60px;}
+    button.left{float:left}
+    button.right{float:right} */
+.center{
+width: 150px;
+  margin: 40px auto;
+  
+}

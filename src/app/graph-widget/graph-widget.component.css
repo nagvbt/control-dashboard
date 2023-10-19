@@ -1,0 +1,7 @@
+#chart {
+  box-sizing: initial;
+  border: 10px solid #ffe699;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+}

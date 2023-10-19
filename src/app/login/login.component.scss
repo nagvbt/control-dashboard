@@ -1,0 +1,32 @@
+md-card {
+  max-width: 19rem;
+  margin: 2em auto;
+  text-align: center;
+}
+.signin-content {
+  padding: 12rem 1rem;
+  width: 50rem;
+}
+.full-width-input {
+  width: 100%;
+}
+
+.backdrop {
+    min-height: calc(100vh - 0.1rem);
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    overflow-y: auto;
+    background: url('../../assets/img/BackgroundImage_1920.jpg') no-repeat center -76px rgba(0, 0, 0, 0.7);
+    background-blend-mode: unset;
+}
+
+.login-logo {
+  width: 46%;
+    height: 50%;
+}
+
+.btn-color {
+  background-color: #286090;
+  color: white;
+}

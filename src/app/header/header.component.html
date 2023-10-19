@@ -1,0 +1,18 @@
+<mat-toolbar color="white" class="header">
+  <span>
+    <img src="assets/img/logo.png" class="angular-logo" />
+  </span>
+  <span class="item"></span>
+  <div class="item">
+    <span>Time:</span>
+    <span>{{ objDate | date : "mediumTime" }}</span>
+  </div>
+  <div class="item">
+    <span>Blink:</span>
+    <span
+      ><div class="light" [style.backgroundColor]="title ? 'red' : 'blue'"></div
+    ></span>
+  </div>
+
+  <button class="item" mat-button (click)="onLogout()">Logout</button>
+</mat-toolbar>
